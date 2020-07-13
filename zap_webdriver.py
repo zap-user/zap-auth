@@ -102,7 +102,7 @@ class ZapWebdriver:
         logging.info('Authenticate using webdriver ' + self.auth_loginUrl)
         
         self.driver.get(self.auth_loginUrl)
-        time.sleep(60)
+        time.sleep(70)
         if self.auth_auto:
             self.auto_login(zap, target)
         else:
